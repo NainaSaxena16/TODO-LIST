@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - JAVASCRIPT</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="TODO.css">
+</head>
+<body>
+    <div class="container ">
+        <h1>TODO LIST</h1>
+        <input type="text" class="form-control" id="search" placeholder="Search Items">
+    </div>
+    <div class="container">
+        <div class="form-group">
+            <H2>ADD ITEMS</H2>
+           <!-- <label for="user">ADD ITEMS</label> -->
+           <form id="addForm" class="form-inline mb-3" action="">
+           <input type="text" class="form-control" id="item" placeholder="Add Items">
+           <input type="submit" class="btn info" value="Submit">
+          </form>
+        </div>
+        <h3>THE ADDED ITEMS ARE AS FOLLOWS:-</h3>
+      <div class="list-group clearfix">
+        <ul class="list-group clearfix" id="items">
+          <li class="list-group-item">First item<button class="btn-danger pull-right" type="submit">X</button></li>
+          <li class="list-group-item">Second item<button class="btn-danger pull-right" type="submit">X</button></li>
+          <li class="list-group-item">Third item<button class="btn-danger pull-right" type="submit">X</button></li>
+          <li class="list-group-item">Fourth item<button class="btn-danger pull-right" type="submit">X</button></li>
+        </ul>
+      </div>
+    </div>
+    <script src="TODO.js"></script>
+</body>
+</html>
